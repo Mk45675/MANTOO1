@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH", "30ef7865324bf67ff4347ef5e05fd686")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "6805838144:AAGxvByOQ_-cRoKcAnqtUDHPlfpaG4CB0gI")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "-1001877161805")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamAloneOp/AloneX",
+    "https://github.com/Mk45675/MANTOO1/edit/ALONE/config.py",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "ALONE")
 GIT_TOKEN = getenv(
